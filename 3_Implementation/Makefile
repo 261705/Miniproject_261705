@@ -1,15 +1,15 @@
 PROJECT=income_tax_calculator
 PROJECT_TEST=test_income_tax_calculator
-SRC=src\input_details.c\
-src\gross_income.c\
-src\deductions.c\
-src\tax.c\
-src\report_generator.c
+SRC=src/input_details.c\
+src/gross_income.c\
+src/deductions.c\
+src/tax.c\
+src/report_generator.c
 MAIN=main.c
 INC=-I inc
 INC_T=-I unity
 TEST_SRC=unity/unity.c
-TEST=test\test_income_tax_calculator.c
+TEST=test/test_income_tax_calculator.c
 ifdef OS
    DEL = del /q
    EXE = exe
