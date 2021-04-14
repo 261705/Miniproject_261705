@@ -5,7 +5,8 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI]([![C/C++ CI](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml))](https://github.com/261705/Miniproject_261705/blob/main/.github/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/261705/Miniproject_261705/blob/main/.github/workflows/Code%20Quaility-static%20analysis.yml/badge.svg)](https://github.com/261705/Miniproject_261705/blob/main/.github/workflows/Code%20Quaility-static%20analysis.yml.yml) [![Dynamic Valgrind](https://github.com/261705/Miniproject_261705/blob/main/.github/workflows/Code%20Quality-Dynamic.yml/badge.svg)](https://github.com/261705/Miniproject_261705/blob/main/.github/workflows/Code%20Quality-Dynamic.yml.yml)| [![Unity - Unit Testing](https://github.com/261705/Miniproject_261705/blob/main/.github/workflows/unity.yml/badge.svg)](https://github.com/261705/Miniproject_261705/blob/main/.github/workflows/unity.yml)| [![Git Inspector](https://github.com/261705/Miniproject_261705/blob/main/.github/workflows/git-inspector.yml/badge.svg)](https://github.com/261705/Miniproject_261705/blob/main/.github/workflows/git-inspector.yml.yml)
+[![C/C++ CI](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml)
+
 
 
 ## Folder Structure
