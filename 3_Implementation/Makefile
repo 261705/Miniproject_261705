@@ -32,7 +32,7 @@ test:  $(BUILD) $(SRC) $(TEST_SRC) $(TEST)
 cppcheck:
 	cppcheck --enable=all $(SRC) $(MAIN)
 coverage:$(BUILD)
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(INC) $(INC_T) $(SRC) $(TEST_SRC) -o $(TEST_OUTPUT)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(INC) $(INC_T) $(SRC) $(TEST_SRC) $(TEST) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
 debug:
 	gcc $(INC) $(SRC) $(MAIN) -g -o $(PROJECT).$(EXE)
