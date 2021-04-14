@@ -19,4 +19,4 @@ jobs:
     - name: make test
       run: make -C 3_Implementation/ test
     - name: Valgrid
-      run: valgrind ./3_Implementation/ $(PROJECT_TEST).out
+      run: valgrind ./ test_income_tax_calculator.out
