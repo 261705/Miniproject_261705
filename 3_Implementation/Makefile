@@ -10,6 +10,7 @@ INC=-I inc
 INC_T=-I unity
 TEST_SRC=unity/unity.c
 TEST=test/test_income_tax_calculator.c
+
 ifdef OS
    DEL = del /q
    EXE = exe
@@ -19,13 +20,15 @@ else
 	  EXE = out
    endif
 endif   
+BUILD=build
+TEST_OUTPUT = $(BUILD)/$(PROJECT_TEST).$(EXE)
 $(PROJECT): $(SRC) $(MAIN)
 	gcc $(INC) $(SRC) $(MAIN) -o $(PROJECT).$(EXE)
 run: $(PROJECT).$(EXE)
 	./$(PROJECT).$(EXE)	
-test: $(SRC) $(TEST_SRC) $(TEST)
-	gcc $(INC) $(INC_T) $(SRC) $(TEST_SRC) $(TEST) -o $(PROJECT_TEST).$(EXE)
-	./$(PROJECT_TEST).$(EXE)
+test:  $(BUILD) $(SRC) $(TEST_SRC) $(TEST)
+	gcc $(INC) $(INC_T) $(SRC) $(TEST_SRC) $(TEST) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
 cppcheck:
 	cppcheck --enable=all $(SRC) $(MAIN)
 debug:
@@ -38,3 +41,6 @@ valgrind:
 
 clean:
 	$(DEL) *.$(EXE)
+$(BUILD):
+	mkdir build
+
