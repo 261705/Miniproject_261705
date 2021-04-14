@@ -25,6 +25,7 @@ run: $(PROJECT).$(EXE)
 	./$(PROJECT).$(EXE)	
 test: $(SRC) $(TEST_SRC) $(TEST)
 	gcc $(INC) $(INC_T) $(SRC) $(TEST_SRC) $(TEST) -o $(PROJECT_TEST).$(EXE)
+	./$(PROJECT_TEST).$(EXE)
 cppcheck:
 	cppcheck --enable=all $(SRC) $(MAIN)
 debug:
