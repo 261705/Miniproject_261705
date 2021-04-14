@@ -31,6 +31,9 @@ test:  $(BUILD) $(SRC) $(TEST_SRC) $(TEST)
 	./$(TEST_OUTPUT)
 cppcheck:
 	cppcheck --enable=all $(SRC) $(MAIN)
+coverage:$(BUILD)
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(INC) $(INC_T) $(SRC) $(TEST_SRC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
 debug:
 	gcc $(INC) $(SRC) $(MAIN) -g -o $(PROJECT).$(EXE)
 	gdb $(PROJECT).$(EXE)
