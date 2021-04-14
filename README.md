@@ -3,9 +3,9 @@
 
 Visit [Pages for Report -optional](using github.io option)
 
-Build | Cppcheck | valgrind | Unity | [Git Inspector](using github.io option)
-------|----------|-------|------------|--------------
-[![C/C++ CI](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml) |[![Code Quality - Static Code - Cppcheck](https://github.com/261705/Miniproject_261705/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/cppcheck.yml)| [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/261705/Miniproject_261705/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/Valgrind.yml)| [![Unit Testing - Unity](https://github.com/261705/Miniproject_261705/actions/workflows/unity.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/unity.yml) | [![Git-Inspector](https://github.com/261705/Miniproject_261705/actions/workflows/git-inspector.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/git-inspector.yml)
+Build | Code Quality | Unity | [Git Inspector](using github.io option)
+------|----------|-------|------------
+[![C/C++ CI](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml) |[![Static Code Analysis - Cppcheck](https://github.com/261705/Miniproject_261705/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/cppcheck.yml) [![Dynamic Code Analysis Valgrind](https://github.com/261705/Miniproject_261705/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/Valgrind.yml) [![CI-Coverage](https://github.com/261705/Miniproject_261705/actions/workflows/Code-Coverage.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/Code-Coverage.yml)| [![Unit Testing - Unity](https://github.com/261705/Miniproject_261705/actions/workflows/unity.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/unity.yml) | [![Git-Inspector](https://github.com/261705/Miniproject_261705/actions/workflows/git-inspector.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/git-inspector.yml)
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
