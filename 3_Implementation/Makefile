@@ -32,7 +32,7 @@ debug:
 	gdb $(PROJECT).$(EXE)
 
 valgrind:
-	valgrind ./$(PROJECT_TEST).$(EXEC)
+	valgrind ./$(PROJECT_TEST).$(EXE)
 
 
 clean:
