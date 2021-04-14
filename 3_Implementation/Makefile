@@ -28,7 +28,7 @@ test: $(SRC) $(TEST_SRC) $(TEST)
 cppcheck:
 	cppcheck --enable=all $(SRC) $(MAIN)
 debug:
-	gcc $(INC) $(SRC) $(MAIN) -g -o $(PROJECT).$(EXEC)
+	gcc $(INC) $(SRC) $(MAIN) -g -o $(PROJECT).$(EXE)
 	gdb $(PROJECT).$(EXE)
 
 valgrind:
