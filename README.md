@@ -6,6 +6,8 @@ Visit [Pages for Report -optional](using github.io option)
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
 [![C/C++ CI](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/c-cpp.yml)
+[![Code Quality - Static Code - Cppcheck](https://github.com/261705/Miniproject_261705/actions/workflows/Code%20Quaility-static%20analysis.yml/badge.svg)](https://github.com/261705/Miniproject_261705/actions/workflows/Code%20Quaility-static%20analysis.yml)
+
 
 
 
