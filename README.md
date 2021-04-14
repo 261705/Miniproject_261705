@@ -26,9 +26,3 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. Facing a real time project for the first time.
 3. No idea of git and github and slowly got to know about the core.
 
-## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
-
