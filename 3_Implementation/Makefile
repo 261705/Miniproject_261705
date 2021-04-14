@@ -34,11 +34,6 @@ cppcheck:
 debug:
 	gcc $(INC) $(SRC) $(MAIN) -g -o $(PROJECT).$(EXE)
 	gdb $(PROJECT).$(EXE)
-
-valgrind:
-	valgrind ./$(PROJECT_TEST).$(EXE)
-
-
 clean:
 	$(DEL) *.$(EXE)
 $(BUILD):
