@@ -55,4 +55,14 @@ By using the application.
 
 ## Detailed Requirements 
 
-TBD
+### High Level Requirements
+
+| ID | Description | Category | Status |
+|----|-------------|----------|--------|
+|HR_01|User shall be able to input income details | Technical | Implemented |
+|HR_02|User shall be able to input expenditure details | Technical | Implemented |
+ ### Low Level Requirements
+ 
+ | ID | Description | HLR | Status |
+ |----|-------------|-----------|--------|
+ |LR_01|Name should be entered without giving spaces | HR01,HR02 | Future |
