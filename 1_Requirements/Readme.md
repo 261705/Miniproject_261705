@@ -27,6 +27,10 @@ Step 5: Calculate tax for the taxable income according to rules of the Income ta
 
 Step 6: Generate a report of all the values of Income,Deductions and Tax Details.
 
+## SWOT Analysis
+
+(https://github.com/261705/Miniproject_261705/blob/main/1_Requirements/Software%20SWOT%20Analysis.png)
+
 ## 4 W's and 1 H
 
 ### Who 
